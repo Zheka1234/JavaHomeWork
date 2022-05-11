@@ -24,8 +24,7 @@ import java.util.List;
                                 "Model: " + (int) (1 + Math.random() * 7),
                                 (int) (1 + Math.random() * 4),
                                 round(1 + Math.random() * 5.0),
-
-                                (int) (1 + Math.random() * 6)));
+                                (int) (1 + Math.random() * 15 )));
             }
             return cars;
         }
