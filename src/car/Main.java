@@ -21,7 +21,6 @@ public class Main {
             System.out.println(car);
         }
 
-
         for (Car car : cars) {
             ((carMoving ) car).run();
             System.out.println("Max speed: "+ car.getBrand() + " " + car.getModel() + " : " + ((carMoving ) car).move() + "km/h");

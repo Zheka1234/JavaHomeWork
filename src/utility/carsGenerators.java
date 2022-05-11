@@ -31,7 +31,7 @@ import java.util.List;
         }
 
         static double round(double value) {
-            return BigDecimal.valueOf(value).setScale(2, RoundingMode.HALF_UP).doubleValue();
+            return BigDecimal.valueOf(value).setScale(10, RoundingMode.HALF_UP).doubleValue();
         }
 
 
